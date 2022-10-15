@@ -4,7 +4,7 @@ pipeline {
      maven 'M2_HOME'
   }
   environment {
-     registry = "ndohdidier/dockerid"
+     registry = "ndohdidier/docker_pipeline"
      registryCredential = 'DockerID'
   }
   stages {
